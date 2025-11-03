@@ -3,6 +3,7 @@
 > 🤖 集成大模型AI的学习管理平台，支持课程管理、作业跟踪、小组协作和智能学习规划
 
 ## ✨ 核心亮点
+<img width="1855" height="1005" alt="image" src="https://github.com/user-attachments/assets/269a3d2e-a572-4d68-94bc-58bc3c173eaf" />
 
 ### 🎯 AI智能能力
 - **AI伙伴**：全局可访问的智能助手，提供学习答疑、情感陪伴、聊天历史
@@ -10,6 +11,7 @@
 - **文件内容分析**：上传文件自动分析，预估完成时间并提供着手建议
 - **学习目标拆解**：将大目标拆解为可执行步骤，推荐最优学习路径
 - **多模型支持**：轻松切换讯飞星火、DeepSeek、Groq等大模型
+<img width="922" height="723" alt="image" src="https://github.com/user-attachments/assets/12d0aed4-fea0-4d79-82d4-282f024e54bb" />
 
 ### 📚 学习管理
 - **课程管理**：周视图课程表，CSV批量导入，时间段自定义
@@ -26,8 +28,14 @@
 - **全局Toast通知**：操作反馈清晰直观
 - **骨架屏加载**：优化加载体验
 - **平滑动画**：页面切换和交互动画流畅自然
-
 ---
+
+<img width="1576" height="908" alt="image" src="https://github.com/user-attachments/assets/a1df4021-6986-4618-b9aa-dff98f11a426" />
+### 🎨 用小组
+- **密钥进入**：
+- **可以上传文件，自动创建版本号**：
+- **提交历史**：仿git设计，面向更多群体
+
 
 ## 🛠️ 技术栈
 
@@ -38,8 +46,10 @@
 **AI集成**：多模型支持（讯飞星火、DeepSeek、Groq、OpenAI）
 
 ---
+<img width="1294" height="814" alt="image" src="https://github.com/user-attachments/assets/8e4c3b24-7c49-4914-ac5c-963a7eb1ed4c" />
 
 ## 📋 功能详解
+<img width="1653" height="937" alt="image" src="https://github.com/user-attachments/assets/098f9de4-aa16-45f7-8799-4ac4bdc805a9" />
 
 ### 课程管理
 - **周视图课程表**：周一至周日，按时间段显示
@@ -53,6 +63,7 @@ course_name,instructor,location,day_of_week,start_time,end_time
 线性代数,熊波,教学楼A101,1,08:00,09:40
 大学物理,艾汉华,教学楼B202,1,10:00,11:40
 ```
+<img width="1595" height="946" alt="image" src="https://github.com/user-attachments/assets/03b8f1d8-7675-4f82-8728-779b1070f1ab" />
 
 ### 作业管理
 - **完整CRUD**：创建、编辑、删除作业
