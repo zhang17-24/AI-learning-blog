@@ -11,7 +11,8 @@
 - **文件内容分析**：上传文件自动分析，预估完成时间并提供着手建议
 - **学习目标拆解**：将大目标拆解为可执行步骤，推荐最优学习路径
 - **多模型支持**：轻松切换讯飞星火、DeepSeek、Groq等大模型
-<img width="922" height="723" alt="image" src="https://github.com/user-attachments/assets/12d0aed4-fea0-4d79-82d4-282f024e54bb" />
+<img width="1839" height="915" alt="image" src="https://github.com/user-attachments/assets/7c321e49-42ee-4981-8e13-7c3407679945" />
+
 
 ### 📚 学习管理
 - **课程管理**：周视图课程表，CSV批量导入，时间段自定义
