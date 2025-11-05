@@ -61,8 +61,8 @@
 **CSV格式示例**：
 ```csv
 course_name,instructor,location,day_of_week,start_time,end_time
-线性代数,熊波,教学楼A101,1,08:00,09:40
-大学物理,艾汉华,教学楼B202,1,10:00,11:40
+线性代数,能波,教学楼A101,1,08:00,09:40
+大学物理,爱汉华,教学楼B202,1,10:00,11:40
 ```
 <img width="1595" height="946" alt="image" src="https://github.com/user-attachments/assets/03b8f1d8-7675-4f82-8728-779b1070f1ab" />
 
@@ -262,6 +262,24 @@ netstat -ano | findstr :5000
 taskkill /F /PID <进程ID>
 ```
 
+### 前端服务无法访问（ERR_CONNECTION_REFUSED）？
+1. **检查服务是否启动**：
+   - 确认是否有名为 "前端服务" 的命令窗口在运行
+   - 查看该窗口中的错误信息
+   
+2. **检查端口5173**：
+   - 如果端口被占用，`启动项目.bat` 会自动尝试关闭占用进程
+   - 手动检查：`netstat -ano | findstr :5173`
+   
+3. **检查依赖是否安装**：
+   - 进入 `frontend` 目录
+   - 运行 `npm install` 安装依赖
+   - 如果安装失败，检查网络连接和Node.js版本（需要16+）
+   
+4. **查看详细错误**：
+   - 前端服务启动时会在 "前端服务" 窗口中显示错误信息
+   - 注意查看是否有编译错误或配置问题
+
 ### Python找不到？
 - 重新安装Python 3.9+，安装时勾选"Add Python to PATH"
 - 或手动将Python安装目录添加到系统PATH
@@ -286,7 +304,7 @@ taskkill /F /PID <进程ID>
 
 ```
 new-blog/
-├── 启动项目.bat              # 统一启动脚本
+├── 启动项目.bat              # 统一启动脚本（启动前后端）
 ├── backend/
 │   ├── 初始化数据库.bat      # 数据库初始化脚本
 │   ├── app/
